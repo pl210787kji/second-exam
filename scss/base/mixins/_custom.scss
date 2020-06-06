@@ -1,0 +1,38 @@
+.container {
+    height: 100%;
+}
+
+@mixin f-between-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+@mixin f-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+@mixin f-left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+}    
+
+@mixin hover-text {
+    transform: scale(1.06);
+    // transition: .2s;
+    color: $hover;
+    
+}
+
+@mixin f-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
